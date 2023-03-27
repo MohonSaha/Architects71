@@ -1,0 +1,501 @@
+/*=================== Resets Css  ====================*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+    --primary-color: black;
+    --seconday-color: #727272;
+    --special-color: #FF900E;
+}
+
+/*======================== Utility Classes ====================== */
+
+.container {
+    margin-top: 100px;
+}
+
+.secondary-fonts {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--seconday-color);
+}
+
+.btn {
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: var(--special-color);
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+
+/*================== Style Nav Area  =================*/
+
+#navbar {
+    max-width: 1040px;
+    margin: 20px auto 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.nav-list ul {
+    display: flex;
+}
+
+.nav-list ul li {
+    list-style: none;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 18px;
+    color: black;
+    padding: 3px 12px;
+}
+
+.nav-list ul li a:hover {  
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    background-color:  var(--special-color);
+}
+
+
+/*===================== Style Brand Area  ====================*/
+.banner {
+    background: rgba(255, 143, 14, 0.142);
+    padding-bottom: 40px;
+}
+
+.brand-container {
+    padding-top: 100px;
+}
+
+#brand-description {
+    margin: 0 auto;
+    Width: 862px;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+#brand-description h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: #131313;
+}
+
+/*====================== Banner Image Section  =====================*/
+
+.banner-img {
+    margin-bottom: 100px;
+}
+
+img {
+    margin-left: 13%;
+    width: 1040px;
+    height: 500px;
+}
+
+
+/*=================== Style Features Section  =======================*/
+
+#features-section {
+    padding: 0% 15%;
+    margin-bottom: 100px;
+}
+
+.fratures-description h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 18px;
+}
+
+.first-span {
+    color: var(--seconday-color);
+}
+
+.second-span {
+    color: var(--special-color);
+}
+
+.features {
+    position: relative;
+    top: -20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-img img {
+    width: 250px;
+    height: 250px;
+}
+
+
+/*================== Style Experience Section  ========================*/
+
+#experience-section {
+    background-color: #fff;
+    padding: 0% 8%;
+}
+
+.experiences {
+    display: flex;
+}
+
+.experiences-description {
+    width: 586px;
+    height: 982px;
+    padding-top: 70px;
+}
+
+.exp-title {
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 12px;
+    border-left: 4px solid var(--special-color);
+    margin-bottom: 24px;
+
+}
+
+
+.exp-cards {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.306);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.experiences-img img {
+    width: 708px;
+    height: 982px;
+    margin-left: 8%;
+}
+
+.experiences-img button {
+    padding: 35px;
+    border-radius: 8px;
+    position: relative;
+    top: -131px;
+    left: 31px;
+}
+
+.years {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+
+/*===================== Style Facts Section  =========================*/
+
+#facts-section {
+    background-color: #fff;
+    padding: 0% 8%;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.fact-cards {
+    margin-top: 10%;
+}
+
+.fact-cards-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact-card {
+    width: 210.83px;
+    height: 220.83px;
+    border: 1px solid var(--special-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact-card:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
+.fact-card img {
+    width: 45.22px;
+    height: 45.22px;
+    margin: 0;
+}
+
+.fact-card img:hover {
+    transform: scale(1.5) rotate(360deg);
+    transition-duration: 1s;
+}
+
+.fact-card h2 {
+    margin: 10px 0px;
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.fact-card p {
+    color: var(--seconday-color);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/*=================== Style Sponsors Section ======================*/
+
+#sponsors-section {
+    background-color: #fff;
+    padding: 0% 8%;
+}
+
+.sponsors-details {
+    width: 542px;
+    height: 129px;
+    margin: 0px auto;
+}
+
+.sponsors-details h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+}
+
+.sponsors-details p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 10px;
+    padding: 0px 56px;
+    text-align: center;
+}
+
+.sponsors-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsors-img img {
+    width: 165.83px;
+    height: 50px;
+    margin-left: 0;
+    filter: grayscale(100%);
+}
+
+
+/* Style Tiles Design Section  */
+
+.title-container{ 
+    position: relative;
+    height: 1200px;
+    width: 80%;
+    margin: 0pc auto;
+}
+
+.tiles{
+    display: flex;
+}
+
+.tiles .red{
+    width: 600px;
+    height: 500px;
+    background-color: #df5445;
+    text-align: center;
+    padding: 150px 20px 20px;
+}
+
+.red h2, .blue h2{
+    margin: 16px;
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.red p, .blue p{
+    margin: 16px;
+    color: white;
+}
+
+.red img, .blue img, .white img{
+    width: 56px;
+    height: 56px;
+    margin: 0;
+}
+
+.tiles .blue{
+    width: 600px;
+    height: 500px;
+    text-align: center;
+    background-color: #49b1b9;
+    padding: 85px 10px 60px 10px;
+    position: relative;
+    top: 110px;
+}
+
+.middle img{
+    height: 150px;
+    width: 25%;
+    position: absolute;
+    right: 49.9%;
+    top: 38.3%;
+
+}
+
+.last-column{
+    position: relative;
+}
+
+.last-column .computer img{
+    height: 150px;
+    width: 270px;
+    position: relative;
+    margin-left: 2px;
+    top: 109px;
+}
+
+.last-column .white{
+    width: 600px;
+    height: 600px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 150px 75px 20px;
+    position: relative;
+    left: 25%;
+    top: -44px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.306);
+}
+
+.white h2{
+    margin: 26px 0px 16px 0px;
+    color: rgb(218, 0, 218);
+}
+
+
+.last-column .metting img{
+    height: 150px;
+    width: 20%;
+    position: absolute;
+    left: 67%;
+    top: 110px;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contract us section  */
+
+#contract-section {
+    margin-top: 80px;
+    position: relative;
+}
+
+#contract-section h1 {
+    font-weight: 700;
+    font-size: 35px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#contract-section::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    background: url(../images/contract.jpg) no-repeat center center/cover;
+}
+
+#contract-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contract-box input,
+#contract-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+
+#contract-box form {
+    width: 40%;
+}
+
+#contract-box label {
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/*===================== Style Footer ection  ===========================*/
+footer {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 200px;
+}
+
+footer h3 {
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}

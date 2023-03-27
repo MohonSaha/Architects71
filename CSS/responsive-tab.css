@@ -1,0 +1,161 @@
+@media only screen and (min-width:689px) and (max-width:992px) { 
+
+    main {
+        max-width: 100vw;
+    }
+
+    #navbar{
+        margin: 0px;
+        padding: 20px;
+        background-color: rgba(205, 66, 255, 0.092);
+    }
+
+    .nav-title h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+
+    .nav-list ul li a {
+        text-decoration: none;
+        margin-left: 0px;
+        font-size: 18px;
+        color: black;
+        padding: 3px 6px;  
+        /* transition-duration: 0.7s; */
+    }
+
+
+    /*===================== Style Brand Area  ====================*/
+
+.brand-container {
+    padding-top: 80px;
+}
+
+#brand-description {
+    Width: 100vw;
+    padding: 0px 92px;
+}
+
+#brand-description h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+/*====================== Banner Image Section  =====================*/
+
+.banner-img {
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+img {
+    margin-left: 4%;
+    width: 750px;
+    height: 541px;
+}
+
+/*=================== Style Features Section  =======================*/
+
+#features-section {
+    margin-bottom: 50px;
+}
+
+.features {
+    flex-direction: column;
+    gap: 60px;
+}
+
+.features-img {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.features-img img {
+    margin: 0 auto;
+    width: 330px;
+    height: 300px;
+}
+
+/*================== Style Experience Section  ========================*/
+
+#experience-section {
+    padding: 0% 0%;
+    margin-top: 40px;
+}
+
+.experiences {
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.experiences-description {  
+    width: 80%;
+    margin: 0px auto;
+    height: 880px;
+    padding-top: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.experiences-img img {
+    width: 608px;
+    height: 802px;
+    margin-left: 8%;
+}
+
+.experiences-img button {
+    padding: 22px;
+    border-radius: 8px;
+    position: relative;
+    top: -100px;
+    left: 290px;
+}
+
+/*===================== Style Facts Section  =========================*/
+
+#facts-section{
+    max-width: 90%;
+    text-align: center;
+}
+.fact-cards-container {
+    margin-left: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 36px;
+}
+
+
+/*=================== Style Sponsors Section ======================*/
+
+#sponsors-section {
+    background-color: #fff;
+    padding: 0% 0%;
+}
+
+.sponsors-details {   
+    width: 90%;
+}
+
+.sponsors-img {
+    margin-top: 90px;
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 36px;
+}
+
+.sponsors-img img {
+    width: 190.83px;
+    height: 80px;
+}
+
+.tile-design{
+    display: none;
+}
+
+
+}
